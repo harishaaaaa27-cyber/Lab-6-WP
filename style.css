@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1564981797816-1043664bf78d");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #2c3e50;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a5276;
+    font-size: 40px;
+    border-bottom: 3px solid #1a5276;
+    padding-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    color: #7d3c98;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.content,
+.courses {
+    margin-top: 25px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    background-color: #f8f9f9;
+}
+
+h2 {
+    color: #c0392b;
+    border-left: 5px solid #c0392b;
+    padding-left: 10px;
+}
+
+.content p {
+    color: #34495e;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.courses p {
+    padding: 10px;
+    border: 1px solid #95a5a6;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.courses p:nth-child(2) {
+    color: #2471a3;
+}
+
+.courses p:nth-child(3) {
+    color: #148f77;
+}
+
+.courses p:nth-child(4) {
+    color: #884ea0;
+}
+
+.courses p:nth-child(5) {
+    color: #d35400;
+}
